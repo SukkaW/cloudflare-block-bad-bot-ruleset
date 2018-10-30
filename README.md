@@ -12,21 +12,26 @@
 > Block bad, possibly even malicious web crawlers (automated bots) using Cloudflare Firewall Rules<br>
 > 使用 Cloudflare Firewall Rules 拦截恶意网络爬虫（自动机器人）和其它恶意流量
 
-## Contents 目录
-
 ## Introduction 简介
 
 `Cloudflare Block Bad Bot Ruleset` projects stop and block Bad Bot, Spam Referrer, Adware, Malware and any other kinds of bad internet traffic ever reaching your web sites. Inspired by [nginx-badbot-blocker](https://github.com/mariusv/nginx-badbot-blocker) & integrated with Cloudflare Firewall Rules.
 
 `Cloudflare Block Bad Bot Ruleset` 可以阻止恶意爬虫、垃圾引荐来源、广告、恶意软件以及任何其他类型的恶意互联网流量到达您的网站。灵感来自 [nginx-badbot-blocker](https://github.com/mariusv/nginx-badbot-blocker) 并与 Cloudflare Firewall Rules 集成。
 
-## Usage 用法
+## Precautions 注意事项
 
-Work in Progress.
+`Cloudflare Block Bad Bot Ruleset` mainly based on User-Agent, which is known to all that could be changed easily. So the project can not replace the Web Application Firewall.
+
+`Cloudflare Block Bad Bot Ruleset` 主要基于 User-Agent，但是众所周知 User-Agent 可以伪装，所以本项目并不能取代正规的 Web Application Firewall。
 
 ## Ruleset 规则
 
-Work in Progress.
+Rule Name | File Name | What For
+---- | ---- | ----
+Allow Good Bot | [allow-good-bot.rules](./allow-good-bot.rules) | Allow known good bot.<br>放行已知的正常爬虫
+Block Aliyun Yundun | [block-aliyun-yd.rules](./block-aliyun-yd.rules) | Block Aliyun Yundun based on known IP cidr.<br>基于已知 IP 段拦截阿里云盾
+Block Bad Bot (Basic) | [block-bad-ua.rules](./block-bad-ua.rules) | Block some known bad bot.<br>拦截一些基本的已知的恶意爬虫
+Block Bad Bot (Extra) | [block-bad-ua-extra.rules](./block-bad-ua-extra.rules) | Block mostly known bad bot, basic ruleset not included.<br>拦截绝大部分已知的恶意爬虫，不包括基本规则
 
 ## More Information 更多详情
 
@@ -34,6 +39,11 @@ Work in Progress.
 - [Cloudflare Firewall Rules | Cloudflare Documentations](https://developers.cloudflare.com/firewall/)
 - [nginx-badbot-blocker | GitHub](https://github.com/mariusv/nginx-badbot-blocker)
 - [nginx-ultimate-bad-bot-blocker | GitHub](https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker)
+
+## Todo List
+
+- [ ] Bad referrer list
+- [ ] Known bad IP List
 
 ## Maintainer 维护者
 
