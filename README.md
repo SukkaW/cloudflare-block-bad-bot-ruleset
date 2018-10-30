@@ -1,7 +1,7 @@
 <p align="center">
-<img src="https://i.loli.net/2018/10/29/5bd7139629ce2.png" width="200px">
+<img src="https://i.loli.net/2018/10/30/5bd7b06b077df.png" width="200px">
 </p>
-<h1 align="center">Cloudflare Block Bad Bot Rules</h1>
+<h1 align="center">Cloudflare Block Bad Bot Ruleset</h1>
 
 <p align="center">
 <a href="https://suka.moe" target="_blank"><img alt="Author" src="https://img.shields.io/badge/Author-Sukka-b68469.svg?style=flat-square"/></a>
@@ -16,9 +16,9 @@
 
 ## Introduction 简介
 
-`Cloudflare Block Bad Bot Rules` projects stop and block Bad Bot, Spam Referrer, Adware, Malware and any other kinds of bad internet traffic ever reaching your web sites. Inspired by [nginx-badbot-blocker](https://github.com/mariusv/nginx-badbot-blocker) & integrated with Cloudflare Firewall Rules.
+`Cloudflare Block Bad Bot Ruleset` projects stop and block Bad Bot, Spam Referrer, Adware, Malware and any other kinds of bad internet traffic ever reaching your web sites. Inspired by [nginx-badbot-blocker](https://github.com/mariusv/nginx-badbot-blocker) & integrated with Cloudflare Firewall Rules.
 
-`Cloudflare Block Bad Bot Rules` 可以阻止恶意爬虫、垃圾引荐来源、广告、恶意软件以及任何其他类型的恶意互联网流量到达您的网站。灵感来自 [nginx-badbot-blocker](https://github.com/mariusv/nginx-badbot-blocker) 并与 Cloudflare Firewall Rules 集成。
+`Cloudflare Block Bad Bot Ruleset` 可以阻止恶意爬虫、垃圾引荐来源、广告、恶意软件以及任何其他类型的恶意互联网流量到达您的网站。灵感来自 [nginx-badbot-blocker](https://github.com/mariusv/nginx-badbot-blocker) 并与 Cloudflare Firewall Rules 集成。
 
 ## Usage 用法
 
@@ -37,6 +37,6 @@ Work in Progress.
 
 ## Maintainer 维护者
 
-**Cloudflare Block Bad Bot Rules** © [Sukka](https://github.com/SukkaW), Released under the [MIT](./LICENSE) License.
+**Cloudflare Block Bad Bot Ruleset** © [Sukka](https://github.com/SukkaW), Released under the [MIT](./LICENSE) License.
 
 > [Personal Website](https://skk.moe) · [Blog](https://blog.skk.moe) · GitHub [@SukkaW](https://github.com/SukkaW) · Telegram Channel [@SukkaChannel](https://t.me/SukkaChannel) · Twitter [@isukkaw](https://twitter.com/isukkaw) · Keybase [@sukka](https://keybase.io/sukka)
