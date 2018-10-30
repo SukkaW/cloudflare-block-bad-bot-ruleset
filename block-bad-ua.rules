@@ -24,4 +24,5 @@
 (http.user_agent contains "leiki") or
 (http.user_agent contains "webmeup") or
 (http.user_agent contains "opensiteexplorer") or
-(http.user_agent contains "blexbot")
+(http.user_agent contains "blexbot") or
+(http.user_agent contains "wrk")
