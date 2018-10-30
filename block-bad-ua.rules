@@ -24,7 +24,6 @@
 (http.user_agent contains "hubspot") or
 (http.user_agent contains "leiki") or
 (http.user_agent contains "webmeup") or
-(http.user_agent contains "opensiteexplorer") or
 (http.user_agent contains "wrk") or
 (http.user_agent contains "PHPCrawl") or
 (http.user_agent contains "PyCurl")
