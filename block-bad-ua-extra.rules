@@ -176,6 +176,7 @@
 (http.user_agent contains "Xaldon") or
 (http.user_agent contains "Xenu")
 (http.user_agent contains "Zyborg") or
+(http.user_agent contains "Zmap") or
 (http.user_agent contains "SemrushBot") or
 (http.user_agent contains "majestic12") or
 (http.user_agent contains "WallpapersHD") or
