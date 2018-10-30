@@ -26,12 +26,12 @@
 
 ## Ruleset 规则
 
-Rule Name | File Name | What For
----- | ---- | ----
-Allow Good Bot | [allow-good-bot.rules](./allow-good-bot.rules) | Allow known good bot.<br>放行已知的正常爬虫
-Block Aliyun Yundun | [block-aliyun-yd.rules](./block-aliyun-yd.rules) | Block Aliyun Yundun based on known IP cidr.<br>基于已知 IP 段拦截阿里云盾
-Block Bad Bot (Basic) | [block-bad-ua.rules](./block-bad-ua.rules) | Block some known bad bot.<br>拦截一些基本的已知的恶意爬虫
-Block Bad Bot (Extra) | [block-bad-ua-extra.rules](./block-bad-ua-extra.rules) | Block mostly known bad bot, basic ruleset not included.<br>拦截绝大部分已知的恶意爬虫，不包括基本规则
+Rule Name | File Name | Action | What For
+---- | ---- | ---- | ----
+Allow Good Bot | [allow-good-bot.rules](./allow-good-bot.rules) | Allow | Allow known good bot.<br>放行已知的正常爬虫
+Block Aliyun Yundun | [block-aliyun-yd.rules](./block-aliyun-yd.rules) | Block | Block Aliyun Yundun based on known IP cidr.<br>基于已知 IP 段拦截阿里云盾
+Block Bad Bot (Basic) | [block-bad-ua.rules](./block-bad-ua.rules) | Block/Challenge | Block some known bad bot.<br>拦截一些基本的已知的恶意爬虫
+Block Bad Bot (Extra) | [block-bad-ua-extra.rules](./block-bad-ua-extra.rules) | Block/Challenge | Block mostly known bad bot, basic ruleset not included.<br>拦截绝大部分已知的恶意爬虫，不包括基本规则
 
 ## More Information 更多详情
 
