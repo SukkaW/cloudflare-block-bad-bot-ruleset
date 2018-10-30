@@ -32,6 +32,10 @@ Block Aliyun Yundun | [block-aliyun-yd.rules](./block-aliyun-yd.rules) | Block |
 Block Bad Bot (Basic) | [block-bad-ua.rules](./block-bad-ua.rules) | Block/Challenge | Block some known bad bot.<br>拦截一些基本的已知的恶意爬虫
 Block Bad Bot (Extra) | [block-bad-ua-extra-0.rules](./block-bad-ua-extra-0.rules)<br>[block-bad-ua-extra-1.rules](./block-bad-ua-extra-1.rules)<br>[block-bad-ua-extra-2.rules](./block-bad-ua-extra-2.rules) | Block/Challenge | Block mostly known bad bot, basic ruleset not included.<br>拦截绝大部分已知的恶意爬虫，不包括基本规则
 
+## Usage 用法
+
+![](https://i.loli.net/2018/10/30/5bd801833e8d3.png)
+
 ## More Information 更多详情
 
 - [Announcing Firewall Rules | Cloudflare Blog](https://blog.cloudflare.com/announcing-firewall-rules/)
