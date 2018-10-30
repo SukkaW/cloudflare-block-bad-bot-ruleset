@@ -6,7 +6,6 @@
 <p align="center">
 <a href="https://suka.moe" target="_blank"><img alt="Author" src="https://img.shields.io/badge/Author-Sukka-b68469.svg?style=flat-square"/></a>
 <a href="./LICENSE" target="_blank"><img alt="License" src="https://img.shields.io/github/license/sukkaw/cloudflare-block-bad-bot-rules.svg?style=flat-square"/></a>
-<a href="https://www.cloudflare.com" target="_blank"><img alt="Cloudflare" src="https://img.shields.io/badge/integrated-cloudflare-f27f23.svg?style=flat-square"/></a>
 </p>
 
 > Block bad, possibly even malicious web crawlers (automated bots) using Cloudflare Firewall Rules<br>
@@ -14,9 +13,9 @@
 
 ## Introduction 简介
 
-`Cloudflare Block Bad Bot Ruleset` projects stop and block Bad Bot, Spam Referrer, Adware, Malware and any other kinds of bad internet traffic ever reaching your web sites. Inspired by [nginx-badbot-blocker](https://github.com/mariusv/nginx-badbot-blocker) & integrated with Cloudflare Firewall Rules.
+`Cloudflare Block Bad Bot Ruleset` projects stop and block Bad Bot, Spam Referrer, Adware, Malware and any other kinds of bad internet traffic ever reaching your web sites. Inspired by [nginx-badbot-blocker](https://github.com/mariusv/nginx-badbot-blocker) & worked with Cloudflare Firewall Rules.
 
-`Cloudflare Block Bad Bot Ruleset` 可以阻止恶意爬虫、垃圾引荐来源、广告、恶意软件以及任何其他类型的恶意互联网流量到达您的网站。灵感来自 [nginx-badbot-blocker](https://github.com/mariusv/nginx-badbot-blocker) 并与 Cloudflare Firewall Rules 集成。
+`Cloudflare Block Bad Bot Ruleset` 可以阻止恶意爬虫、垃圾引荐来源、广告、恶意软件以及任何其他类型的恶意互联网流量到达您的网站。灵感来自 [nginx-badbot-blocker](https://github.com/mariusv/nginx-badbot-blocker) 并与 Cloudflare Firewall Rules 搭配使用。
 
 ## Precautions 注意事项
 
