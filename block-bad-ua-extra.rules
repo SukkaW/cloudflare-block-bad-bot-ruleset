@@ -182,7 +182,6 @@
 (http.user_agent contains "zgrab") or
 (http.user_agent contains "Zitebot") or
 (http.user_agent contains "ZumBot") or
-(http.user_agent contains "Xenu")
 (http.user_agent contains "Zyborg") or
 (http.user_agent contains "Zmap") or
 (http.user_agent contains "SemrushBot") or
