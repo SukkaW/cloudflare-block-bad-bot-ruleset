@@ -1,15 +1,7 @@
 (cf.client.bot) or
-(http.user_agent contains "adidxbot") or
-(http.user_agent contains "AdsBot-Google") or
-(http.user_agent contains "aolbuild") or
-(http.user_agent contains "bingbot") or
-(http.user_agent contains "bingpreview") or
-(http.user_agent contains "DoCoMo") or
 (http.user_agent contains "duckduckgo") or
 (http.user_agent contains "facebookexternalhit") or
 (http.user_agent contains "Feedfetcher-Google") or
-(http.user_agent contains "Googlebot") or
-(http.user_agent contains "Google-HTTP-Java-Client") or
 (http.user_agent contains "LinkedInBot") or
 (http.user_agent contains "Mediapartners-Google") or
 (http.user_agent contains "msnbot") or
