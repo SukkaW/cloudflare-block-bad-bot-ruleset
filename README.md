@@ -4,7 +4,7 @@
 <h1 align="center">Cloudflare Block Bad Bot Ruleset</h1>
 
 <p align="center">
-<a href="https://suka.moe" target="_blank"><img alt="Author" src="https://img.shields.io/badge/Author-Sukka-b68469.svg?style=flat-square"/></a>
+<a href="https://skk.moe" target="_blank"><img alt="Author" src="https://img.shields.io/badge/Author-Sukka-b68469.svg?style=flat-square"/></a>
 <a href="./LICENSE" target="_blank"><img alt="License" src="https://img.shields.io/github/license/sukkaw/cloudflare-block-bad-bot-rules.svg?style=flat-square"/></a>
 </p>
 
