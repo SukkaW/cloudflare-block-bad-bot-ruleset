@@ -55,5 +55,6 @@
 (http.user_agent contains "ZumBot") or
 (http.user_agent contains "Zyborg") or
 (http.user_agent contains "Zmap") or
+(http.user_agent contains "Researchscan") or
 (http.user_agent contains "404checker") or
 (http.user_agent contains "404enemy")
