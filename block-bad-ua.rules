@@ -20,7 +20,6 @@
 (http.user_agent contains "opensiteexplorer") or
 (http.user_agent contains "blexbot") or
 (http.user_agent contains "MJ12bot") or
-(http.user_agent contains "Slurp") or
 (http.user_agent contains "hubspot") or
 (http.user_agent contains "leiki") or
 (http.user_agent contains "webmeup") or
