@@ -24,7 +24,6 @@
 (http.user_agent contains "EMail Siphon") or
 (http.user_agent contains "EMail Wolf") or
 (http.user_agent contains "autoemailspider") or
-(http.user_agent contains "archive") or
 (http.user_agent contains "AlphaBot") or
 (http.user_agent contains "BetaBot") or
 (http.user_agent contains "Xenu") or
