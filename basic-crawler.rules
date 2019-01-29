@@ -10,7 +10,7 @@
 (http.user_agent contains "libwww") or
 (http.user_agent contains "okhttp") or
 (http.user_agent contains "PHPCrawl") or
-(http.user_agent contains "PyCurl")
+(http.user_agent contains "PyCurl") or
 (http.user_agent contains "Python") or
 (http.user_agent contains "python") or
 (http.user_agent contains "wrk")
