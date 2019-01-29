@@ -21,6 +21,7 @@
 (http.user_agent contains "NICErsPRO") or
 (http.user_agent contains "niki-bot") or
 (http.user_agent contains "NimbleCrawler") or
+(http.user_agent contains "Nimbostratus") or
 (http.user_agent contains "Ninja") or
 (http.user_agent contains "Openfind") or
 (http.user_agent contains "orangeBot") or
