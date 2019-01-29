@@ -27,10 +27,11 @@
 
 Rule Name | File Name | Action | What For
 ---- | ---- | ---- | ----
-Allow Good Bot | [allow-good-bot.rules](./allow-good-bot.rules) | Allow | Allow known good bot.<br>放行已知的正常爬虫
-Block Aliyun Yundun | [block-aliyun-yd.rules](./block-aliyun-yd.rules) | Block | Block Aliyun Yundun based on known IP cidr.<br>基于已知 IP 段拦截阿里云盾
-Block Bad Bot (Basic) | [block-bad-ua.rules](./block-bad-ua.rules) | Block/Challenge | Block some known bad bot.<br>拦截一些基本的已知的恶意爬虫
-Block Bad Bot (Extra) | [block-bad-ua-extra-0.rules](./block-bad-ua-extra-0.rules)<br>[block-bad-ua-extra-1.rules](./block-bad-ua-extra-1.rules)<br>[block-bad-ua-extra-2.rules](./block-bad-ua-extra-2.rules) | Block/Challenge | Block mostly known bad bot, basic ruleset not included.<br>拦截绝大部分已知的恶意爬虫，不包括基本规则
+Good Bot | [good-bot.rules](./good-bot.rules) | Allow | Match known good bot.<br>匹配已知的正常爬虫
+Aliyun Yundun | [aliyun-yd.rules](./aliyun-yd.rules) | Block | Match Aliyun Yundun based on known IP cidr.<br>基于已知 IP 段匹配阿里云盾
+Basic Crawler | [basic-crawler.rules](./basic-crawler.rules) | Block/Challenge | Block some known bad bot.<br>匹配一些基本的 HTTP Request 库
+Bad Crawler | [bad-crawler-1.rules](./bad-crawler-1.rules)<br>[bad-crawler-2.rules](./bad-crawler-2.rules) | Block/Challenge | Match mostly known bad bot, basic ruleset not included.<br>匹配绝大部分已知的恶意爬虫、SEO 爬虫和营销爬虫
+Security Scanner | [security-scan-bot.rules](./security-scan-bot.rules) | Block/Challenge | Match mostly known security scanner.<br>匹配大部分已知的漏洞扫描爬虫
 
 ## Usage 用法
 
