@@ -1,0 +1,16 @@
+(http.user_agent contains "Fuck") or
+(http.user_agent contains "fuck") or
+(http.user_agent contains "HttpClient") or
+(http.user_agent contains "HTTPClient") or
+(http.user_agent contains "Jakarta") or
+(http.user_agent contains "Java") or
+(http.user_agent contains "java") or
+(http.user_agent contains "Joomla") or
+(http.user_agent contains "libweb") or
+(http.user_agent contains "libwww") or
+(http.user_agent contains "okhttp") or
+(http.user_agent contains "PHPCrawl") or
+(http.user_agent contains "PyCurl")
+(http.user_agent contains "Python") or
+(http.user_agent contains "python") or
+(http.user_agent contains "wrk")
