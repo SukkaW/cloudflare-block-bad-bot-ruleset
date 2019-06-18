@@ -70,4 +70,5 @@
 (http.user_agent contains "Jyxobot") or
 (http.user_agent contains "Kraken") or
 (http.user_agent contains "larbin") or
+(http.user_agent contains "ltx71") or
 (cf.threat_score > 40)
