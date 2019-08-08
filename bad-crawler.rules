@@ -17,7 +17,7 @@
 (http.user_agent contains "CrazyWebCrawler") or
 (http.user_agent contains "Crescent") or
 (http.user_agent contains "Devil") or
-(((http.user_agent contains "Domain") or (http.user_agent contains "domain")) and ((http.user_agent contains "spider") or (http.user_agent contains "stat") or (http.user_agent contains "Appender") or (http.user_agent contains "Crawler"))) or
+((lower(http.user_agent) contains "domain") and ((http.user_agent contains "spider") or (http.user_agent contains "stat") or (http.user_agent contains "Appender") or (http.user_agent contains "Crawler"))) or
 (http.user_agent contains "DittoSpyder") or
 (http.user_agent contains "Konqueror") or
 (http.user_agent contains "Easou") or (http.user_agent contains "Yisou") or (http.user_agent contains "Etao") or
@@ -31,7 +31,7 @@
 (http.user_agent contains "htmlparser") or
 (http.user_agent contains "hubspot") or
 (http.user_agent contains "Jyxobot") or
-(http.user_agent contains "Kraken") or (http.user_agent contains "kraken") or
+(lower(http.user_agent) contains "kraken") or
 (http.user_agent contains "larbin") or
 (http.user_agent contains "ltx71") or
 (http.user_agent contains "leiki") or

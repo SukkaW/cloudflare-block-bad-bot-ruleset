@@ -1,12 +1,10 @@
-(http.user_agent contains "Fuck") or
-(http.user_agent contains "fuck") or
+(lower(http.user_agent) contains "fuck") or
 (http.user_agent contains "lient" and http.user_agent contains "ttp") or
-(http.user_agent contains "Java") or (http.user_agent contains "java") or
+(lower(http.user_agent) contains "java") or
 (http.user_agent contains "Joomla") or
 (http.user_agent contains "libweb") or (http.user_agent contains "libwww") or
 (http.user_agent contains "PHPCrawl") or
 (http.user_agent contains "PyCurl") or
-(http.user_agent contains "Python") or
-(http.user_agent contains "python") or
+(lower(http.user_agent) contains "python") or
 (http.user_agent contains "wrk") or
 (http.user_agent contains "hey/")
