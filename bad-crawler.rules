@@ -1,4 +1,3 @@
-(http.user_agent contains "404") or
 (http.user_agent contains "80legs") or
 (http.user_agent contains "Abonti") or
 (http.user_agent contains "admantx") or
